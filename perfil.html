@@ -9,75 +9,80 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
     <!--BOOTSTRAP-->   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header id="Volver al Inicio">
-        <!--Enlaces relativos-->  
-                <nav>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">INICIO</a></li>
-                            <li><a href="nosotros.html">NOSOTROS</a></li>
-                            <li><a href="servicios.html">SERVICIOS</a></li>
-                            <li><img src="img/logo-icono/logoheader.png" alt=""></li>
-                            <li><a href="ubicacion.html">UBICACIÓN</a></li>
-                            <li><a href="beneficios.html">CLUB BENEFICIOS</a></li> 
-                            <li><a href="perfil.html">TU PERFIL</a></li>   
-                        </ul>
-                    </nav>
-                </nav>
-        <!--Enlaces relativos-->    
+<!--Enlaces relativos-->  
+        <nav>
+            <a href="logo" class="logo1">
+                <img class="logo" src="img/logo-icono/logoheader.png" alt="logo">
+            </a>
+            <input class="menu" type="checkbox">
+            <i class="icono fi fi-br-menu-burger"></i>
+            <i class="icono fi fi-br-cross"></i>
+            <ul class="listamenu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="ubicacion.html">UBICACIÓN</a></li>
+                <li><a href="beneficios.html">CLUB BENEFICIOS</a></li>
+                <li><a href="perfil.html">TU PERFIL</a></li>   
+            </ul>
+        <nav>
+<!--Enlaces relativos-->    
     </header>
     <main>
         <section>
 <!--Encabezados-->  
-        <div>
-            <h1 class="tituloperfil animate__animated animate__fadeInLeft ">BIENVENIDO</h1>
-        </div>
-<!--Encabezados--> 
-        <div class="formperfil"> 
-            <form>
-                <img src="img/fotoperfil.png" alt="fotoperfil" class="fotoperfil">
-                <div>
-                <input type="email o tel" usuario="usuario" placeholder="Correo electrónico" required class="controles">
-                </div>
-                <div>
-                    <input type="password" contraseñia="Contraseña" placeholder="Contraseña" required class="controles">
-                </div>
-                <div>
-                    <button class="boton" type="submit">Iniciar Sesión</button>
-                </div>
-                <div>
-                    <a href="¿Olvidaste tu contraseña?"> ¿Olvidaste tu contraseña?</a>
-                </div>              
-                <div>
-                    <button class="boton" type="submit">Facebook</button>
-                </div>
-                <div>
-                    <button class="boton" type="submit">Google</button>
-                </div>
-                <div>
-                    <label class="pregunta" ¿No tienes cuenta?">¿No tienes cuenta?</label>
-                </div>
-                <div>
-                    <button class="boton" type="submit">REGISTRARSE</button>
-                </div>         
-            </form>
             <div>
-                <img src="img/perfil.jpg" alt="RENDIRSE NO ES UNA OPCION" class="imagen7perfil">
+                <h1>BIENVENIDO</h1>
             </div>
-        </div>     
+<!--Encabezados--> 
+            <div class="formperfil">
+                <div>
+                    <img src="img/perfil.jpg" alt="RENDIRSE NO ES UNA OPCION" class="imagen7perfil">
+                </div>   
+                <form class="inicio">
+                    <div>
+                        <img src="img/fotoperfil.png" alt="fotoperfil" class="fotoperfil">                    
+                    </div>
+                    <div>
+                        <input type="email o tel" usuario="usuario" placeholder="Correo electrónico" required class="controles">
+                    </div>
+                    <div>
+                        <input type="password" contraseñia="Contraseña" placeholder="Contraseña" required class="controles">
+                    </div>
+                    <div>
+                        <button class="botoninicio" type="submit">Iniciar Sesión</button>
+                    </div>
+                    <div>
+                        <a href="¿Olvidaste tu contraseña?"> ¿Olvidaste tu contraseña?</a>
+                    </div>              
+                    <div>
+                        <button class="botonfacebook" type="submit">Facebook</button>
+                    </div>
+                    <div>
+                        <button class="boton" type="submit">Google</button>
+                    </div>
+                    <div>
+                        <label class="pregunta" ¿No tienes cuenta?">¿No tienes cuenta?</label>
+                    </div>
+                    <div>
+                        <button class="boton" type="submit">REGISTRARSE</button>
+                    </div>         
+                </form>
+            </div>   
         </section>
     </main>
-
     <footer class="footer">
-        <!-- Grid container -->
+<!-- Grid container -->
         <div class="container p-3 pb-0">
-        <!-- Section: Form -->
+<!-- Section: Form -->
         <section class="">
             <form action="">
-            <!--Grid row-->
+<!--Grid row-->
             <div class="row d-flex justify-content-center">
                 <!--Grid column-->
                 <div class="col-auto">
@@ -85,38 +90,36 @@
                     <strong>Suscríbete a nuestro boletín</strong>
                 </p>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
+<!--Grid column-->
+<!--Grid column-->
                 <div class="col-md-5 col-10">
-                <!-- Email input -->
+<!-- Email input -->
                 <div class="form-outline form-white mb-4">
                     <input type="email" id="form5Example29" class="form-control" />
                     <label class="form-label" for="form5Example29">Correo electrónico</label>
                 </div>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
+<!--Grid column-->
+<!--Grid column-->
                 <div class="col-auto">
-                <!-- Submit button -->
+<!-- Submit button -->
                 <button type="submit" class="btn btn-outline-light mb-0">
                     Subscrite
                 </button>
                 </div>
-                <!--Grid column-->
+<!--Grid column-->
             </div>
-            <!--Grid row-->
+<!--Grid row-->
             </form>
         </section>
-        <!-- Section: Form -->
+<!-- Section: Form -->
         </div>
-        <!-- Grid container -->
-        <!-- Copyright -->
+<!-- Grid container -->
+<!-- Copyright -->
         <div class="text-center p-0" style="background-color: black;">
         Invictus. 2023 All rights reserved.
         </div>
-        <!-- Copyright -->
+<!-- Copyright -->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
