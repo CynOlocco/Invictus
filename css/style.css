@@ -1,61 +1,394 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 /*BODY*/
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 /*HEADER*/
-header{
-    background: black;
-    height: 120px;
-    width: 100%;
-}
-.logo1{
-    position: absolute;
-    padding: 20px 50px;
-}
-.logo{
-    float: left;
-    width: 55px;
-    height: 80px;
-    margin: 5px 0px 5px 5px;
+header {
+  background: black;
+  height: 120px;
+  width: 100%;
 }
 header nav ul{
-    color:white; 
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    display: flex;
-    justify-content: space-between;
-    float: right;
-    margin: 25px 80px 0px 0px;
-    flex-grow: 1;
-    align-content: self-start;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  margin: 25px 80px 0px 0px;
+  flex-grow: 1;
+  align-content: self-start;
 }
 header nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 30px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 30px;
 }
 header nav ul li a{
-    text-decoration: none;
-    color:white;
-    text-align: right;
-    padding: 7px 7px;
-    border-radius: 3px;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  padding: 7px 7px;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background-color: #E6A22E;
-    color: black;
-    transition: .5s;
-    padding: auto;
+  background-color: #E6A22E;
+  color: black;
+  transition: 0.5s;
+  padding: 7px 7px;
 }
-.menu, .icono{
+.logo1 {
+  position: absolute;
+  padding: 20px 50px;
+}
+.logo {
+  float: left;
+  width: 55px;
+  height: 80px;
+  margin: 5px 0px 5px 5px;
+}
+
+.menu, .icono {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  margin: 50px 15px 50px 0px;
+  cursor: pointer;
+  display: none;
+}
+/*MAIN*//*Index*/
+main {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+main section video {
+  width: 100%;
+  height: 100%;
+}
+#Frase {
+  color: #E6A22E;
+  font-size: 25px;
+  background-color: black;
+  margin: 30px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  color: #E6A22E;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.moodboardtodo {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 5px;
+  padding: 20px 50px 100px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.moodboard1 {
+  width: 200x;
+  height: 300px;
+  justify-content: center;
+}
+.moodboard2 {
+  width: 605px;
+  height: 300px;
+  justify-content: center;
+}
+.moodboard3 {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+}
+.moodboard4 {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+}
+.moodboard6 {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+}
+/*Nosotros*/
+.nosotros {
+  background-color: black;
+}
+.foto1acerca {
+  width: 100%;
+  height: 95%;
+}
+.acercanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parrafo1 {
+  color: white;
+  height: 500px;
+  width: 500px;
+  padding: 170px 25px;
+  font-size: 20px;
+  text-align: center;
+}
+.imagen5acerca {
+  border-radius: 80px;
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+}
+/*Servicios*/
+.servitodo {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-column-gap: 50px;
+  grid-row-gap: 60px;
+  padding: 20px 50px 100px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.deporte {
+  font-size: 20px;
+  color: #E6A22E;
+  text-align: center;
+}
+main section div a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #E6A22E;
+  text-align: rigt;
+  font-weight: bold;
+}
+.spinning {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.crossfit {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.funcional {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.musculacion {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.tabata {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.hitt {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.muay {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.yoga {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.zumba {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.nutri {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.quiro {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+.fisio {
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+}
+/*Ubicacion*/
+.todosede {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 300px 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  padding: 20px 120px 50px 50px;
+  justify-content: right;
+}
+.subtitulosede {
+  color: #E6A22E;
+  height: 100px;
+  width: 250px;
+  font-size: 25px;
+  text-align: left;
+  justify-content: center;
+}
+.parrafo2 {
+  color: white;
+  height: 200px;
+  width: 300px;
+  font-size: 20px;
+  text-align: left;
+  justify-content: center;
+}
+.girdsedetexto {
+  grid-row: 1/4;
+}
+.sedes {
+  height: 300px;
+  width: 500px;
+}
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+/*Beneficios*/
+.todobene {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-column-gap: 20px;
+  grid-row-gap: 60px;
+  padding: 20px 50px 100px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.beneficio {
+  width: 200px;
+  height: 300px;
+}
+/*Perfil*/
+.formperfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px 50px 80px;
+}
+.inicio {
+  min-width: 500px;
+  flex: 1;
+  text-align: rigth;
+  margin: 0 500px 50px 80px;
+}
+.imagen7perfil {
+  display: flex;
+  flex: 1;
+  height: 500px;
+  width: 300px;
+  border-radius: 50px;
+  margin: 0 20px 50px 500px;
+}
+.fotoperfil {
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  margin: 10px 20px 20px 88px;
+}
+.controles {
+  width: 350px;
+  border: 2px solid #E6A22E;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+  background-color: white;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.pregunta {
+  width: 350px;
+  margin-bottom: 1px;
+  padding: 5px 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+main section form div a {
+  text-decoration: none;
+  color: white;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.boton {
+  width: 350px;
+  height: 35px;
+  background-color: #E6A22E;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.botoninicio {
+  width: 350px;
+  height: 35px;
+  background-color: #E6A22E;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.botonfacebook {
+  width: 350px;
+  height: 35px;
+  background-color: #E6A22E;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+/*Footer*/
+.footer {
+  background-color: black;
+  text-align: center;
+  color: #E6A22E;
+  align-items: flex-end;
+}
+/*Mobile*/
+@media (max-width: 480px) {
+  /*Header*/
+  .menu, .icono {
+    display: block;
     height: 25px;
     width: 25px;
     position: absolute;
@@ -65,595 +398,251 @@ li a.active, li a:hover{
     padding-bottom: 1px;
     margin: 50px 15px 50px 0px;
     cursor: pointer;
-    display: none;
-}
-/*MAIN*/
-main{
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-}    
-main section video{
-    width: 100%;
-    height: 100%;
-}
-.logo{
-    justify-content: center;
-}
-/*Inicio*/
-#Frase{
+  }
+  .icono {
+    pointer-events: none;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin: 30px 40px 50px 0px;
     color: #E6A22E;
-    font-size:25px;
+  }
+  .menu {
+    opacity: 0;
+  }
+  .fi-br-cross {
+    display: none;
+  }
+  .menu:checked ~ .fi-br-menu-burger {
+    display: none;
+  }
+  .menu:checked ~ .fi-br-cross {
+    display: block;
+  }
+  .listamenu {
+    width: 200px;
+    position: absolute;
+    top: 48px;
+    right: 0px;
+    transition: 250ms;
+  }
+  header {
+    background: black;
+    height: 110px;
+    width: 100%;
+  }
+  .logo1 {
+    position: absolute;
+    padding: 20px 50px;
+  }
+  .logo {
+    float: left;
+    width: 55px;
+    height: 80px;
+    margin: 0px 0px 5px 2px;
+  }
+  header nav ul {
+    display: block;
+    background-color: #E6A22E;
+    width: 10px;
+    height: 320px;
+    text-align: left;
+    border-radius: 15px;
+    padding: 5px 10px 2px 10px;
+    display: none;
+  }
+  header nav ul li {
+    margin: 1px 5px 1px 5px;
+    line-height: 50px;
+    margin: 0 15px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+  }
+  .menu:checked ~ .listamenu {
+    display: block;
+    top: 48px;
+    margin: 45px 0 0 0;
+  }
+  /*Inicio*/
+  #Frase {
+    color: #E6A22E;
+    font-size: 18px;
     background-color: black;
     margin: 30px;
     display: flex;
     margin-top: 50px;
     justify-content: center;
-}
-h1{
+  }
+  h1 {
     display: flex;
     color: #E6A22E;
-    font-size:25px;
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
-}
-.moodboardtodo{
+  }
+  .moodboardtodo {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px;
-    grid-gap: 5px;
-    padding: 20px 50px 100px 50px;
+    grid-template-columns: 105px 105px 105px;
+    grid-template-rows: 120px 120px;
+    grid-gap: 15px;
     justify-content: center;
+    margin: 10px 18px 5px 0px;
     align-items: center;
-}
-.moodboard1{
-    width: 200x;
-    height: 300px;
+  }
+  .moodboard1 {
+    width: 115px;
+    height: 130px;
     justify-content: center;
-}
-.moodboard2{
-    width: 605px;
-    height: 300px;
+  }
+  .moodboard2 {
+    width: 235px;
+    height: 130px;
     justify-content: center;
-}
-.moodboard3{
-    width: 300px;
-    height: 300px;
+  }
+  .moodboard3 {
+    width: 115px;
+    height: 130px;
     justify-content: center;
-}
-.moodboard4{
-    width: 300px;
-    height: 300px;
-    justify-content: center;    
-}
-.moodboard6{
-    width:300px;
-    height: 300px;
+  }
+  .moodboard4 {
+    width: 115px;
+    height: 130px;
     justify-content: center;
-}
-/*Nosotros*/
-.nosotros{
-    background-color: black;
-}
-.foto1acerca{
+  }
+  .moodboard6 {
+    width: 115px;
+    height: 130px;
+    justify-content: center;
+  }
+  /*Nosotros*/
+  .acercanos {
+    height: 100%;
     width: 100%;
-    height: 95%;
-}
-.acercanos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.parrafo1{
+  }
+  .parrafo1 {
     color: white;
-    height:500px;
-    width: 500px;
-    padding: 170px 25px;
-    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 45px 30px 25px 0;
+    font-size: 15px;
     text-align: center;
-}
-.imagen5acerca{
-    border-radius: 80px;
-    width: 450px;
-    height: 450px;
-    padding: 20px;
-}
-/*Servicios*/
-.servitodo{
+  }
+  .imagen5acerca {
+    border-radius: 60px;
+    width: 200px;
+    height: 200px;
+    padding: auto;
+  }
+  /*Servicios*/
+  .servitodo {
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 270px 270px 270px 270px;
-    grid-column-gap: 50px;
-    grid-row-gap: 60px;
-    padding: 20px 50px 100px 50px;
-    justify-content: center;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(12, 50px);
+    row-gap: 320px;
+    margin: 150px 270px 80px 10px;
     align-items: center;
-}
-.deporte{
-    font-size: 20px;
+    justify-content: center;
+  }
+  .deporte {
+    font-size: 22px;
     color: #E6A22E;
     text-align: center;
-}
-
-main section div a{
+    margin: 0 15px 10px 100px;
+  }
+  main section div a {
     text-decoration: none;
     font-size: 15px;
     color: #E6A22E;
-    text-align: rigt;
+    text-align: right;
     font-weight: bold;
-}
-.spinning{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.crossfit{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.funcional{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.musculacion{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.tabata{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.hitt{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.muay{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.yoga{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.zumba{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.nutri{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.quiro{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-.fisio{
-    border-radius: 30px;
-    width: 300px;
-    height: 270px;
-}
-/*Ubicacion*/
-.todosede{
+  }
+  /*Ubicacion*/
+  .todosede {
     display: grid;
-    grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 300px 300px;
-    grid-column-gap: 20px;
-    grid-row-gap: 50px;
-    padding: 20px 120px 50px 50px;
-    justify-content: right;
-}
-.subtitulosede{
-    color:#E6A22E;
-    height:100px;
-    width: 250px;
-    font-size: 25px;
-    text-align: left;
+    grid-template-columns: 250px;
+    grid-template-rows: 150px;
+    row-gap: 20px;
+    flex-grow: 1;
+    height: 150;
+    width: 250;
+    margin: 5px 20px 20px 20px;
+    align-items: center;
     justify-content: center;
-}
-.parrafo2{
-    color: white;
-    height:200px;
-    width: 300px;
+  }
+  .subtitulosede {
+    color: #E6A22E;
+    height: 40px;
+    width: 330px;
     font-size: 20px;
-    text-align: left;;
+    text-align: center;
     justify-content: center;
-}
-.girdsedetexto{
-    grid-row: 1 / 4;
-}
-.sedes{
-    height: 300px;
-    width: 500px;
-}
-.mapa{
+  }
+  .parrafo2 {
+    color: white;
+    height: 150px;
+    width: 330px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+  }
+  .sedes {
+    height: 150px;
+    width: 330px;
+  }
+  .mapa {
     width: 100%;
     height: 100%;
-}
-/*Beneficios*/
-.todobene{
+  }
+  /*Beneficios*/
+  .todobene {
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 270px 270px 270px 270px;
-    grid-column-gap: 20px;
-    grid-row-gap: 60px;
-    padding: 20px 50px 100px 50px;
-    justify-content: center;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(12, 50px);
+    row-gap: 320px;
+    margin: 150px 170px 80px 30px;
     align-items: center;
-}
-.beneficio{
+    justify-content: center;
+  }
+  .beneficio {
     width: 200px;
     height: 300px;
-}
-/*Perfil*/
-.formperfil{
+  }
+  /*Perfil*/
+  .formperfil {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    margin: 0 50px 50px 80px;
-}
-.inicio{
+  }
+  .inicio {
     min-width: 500px;
     flex: 1;
     text-align: rigth;
-    margin: 0 500px 50px 80px;
-}
-.imagen7perfil{
+    margin: 0 10px 50px 160px;
+  }
+  .imagen7perfil {
     display: flex;
     flex: 1;
-    height: 500px;
-    width: 300px;
+    height: 200px;
+    width: 220px;
     border-radius: 50px;
-    margin: 0 20px 50px 500px;
-}
-.fotoperfil{
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    margin: 10px 20px 20px 88px;
-}
-.controles{
-    width: 350px;
-    border: 2px solid #E6A22E;
-    margin-bottom: 10px;
-    padding: 5px 5px;
-    background-color: white;
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-}
-.pregunta{
-    width: 350px;
-    margin-bottom: 1px;
-    padding: 5px 5px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-    text-align: center;
-}
-main section form div a{
-    text-decoration: none;
-    color: white;
-    margin-left: 80px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.boton{
-    width: 350px;
-    height: 35px;
-    background-color: #E6A22E;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-}
-.botoninicio{
-    width: 350px;
-    height: 35px;
-    background-color: #E6A22E;
-    margin-bottom: 2px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-}
-.botonfacebook{
-    width: 350px;
-    height: 35px;
-    background-color: #E6A22E;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-}
-/*Footer*/
-.footer{
+    margin: 0 35px 50px 10px;
+  }
+  /*Footer*/
+  .footer {
+    flex-wrap: wrap;
     background-color: black;
     text-align: center;
     color: #E6A22E;
     align-items: flex-end;
+    margin: 0 50px 0px 50px;
+  }
 }
 
-/*Mobile*/
-@media (max-width: 480px){
-    /*Header*/
-    .menu, .icono{
-        display: block;
-        height: 25px;
-        width: 25px;
-        position: absolute;
-        top: 10px;
-        right: 12px;
-        padding-top: 10px;
-        padding-bottom: 1px;
-        margin: 50px 15px 50px 0px;
-        cursor: pointer;
-    }
-    .icono{
-        pointer-events: none;
-        font-size: 25px;
-        padding-top: 10px;
-        padding-bottom: 1px;
-        margin: 30px 40px 50px 0px;
-        color: #E6A22E;
-    }
-    .menu{
-        opacity: 0;
-    }
-    .fi-br-cross{
-        display: none;  
-    }
-    .menu:checked ~ .fi-br-menu-burger{
-        display: none;
-    }
-    .menu:checked ~ .fi-br-cross{
-        display: block;
-    }
-    .listamenu{
-        width: 200px;
-        position: absolute;
-        top: 48px;
-        right: 0px;
-        transition: 250ms;
-    }
-    header{
-        background: black;
-        height: 110px;
-        width: 100%;
-    }
-    .logo1{
-        position: absolute;
-        padding: 20px 50px;
-    }
-    .logo{
-        float: left;
-        width: 55px;
-        height: 80px;
-        margin:0px 0px 5px 2px;
-    }
-    header nav ul{
-        display: block;
-        background-color: #E6A22E;
-        width: 10px;
-        height: 320px;
-        text-align: left;
-        border-radius: 15px;
-        padding: 5px 10px 2px 10px;
-        display: none;
-    }
-    header nav ul li{
-        margin: 1px 5px 1px 5px;
-        line-height: 50px;
-        margin: 0 15px;
-    }
-    header nav ul li a{
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: bold;
-        color:black;
-        text-align: right;
-    }
-    .menu:checked ~ .listamenu{
-        display: block;
-        top: 48px;
-        margin: 45px 0 0 0;
-    }
-    /*Inicio*/
-    #Frase{
-        color: #E6A22E;
-        font-size:18px;
-        background-color: black;
-        margin: 30px;
-        display: flex;
-        margin-top: 50px;
-        justify-content: center;
-    }
-    h1{
-        display: flex;
-        color: #E6A22E;
-        font-size:25px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        justify-content: center;
-    }
-    .moodboardtodo{
-        display: grid;
-        grid-template-columns: 105px 105px 105px;
-        grid-template-rows: 120px 120px;
-        grid-gap: 15px;
-        justify-content: center;
-        margin: 10px 18px 5px 0px;
-        align-items: center;
-    }
-    .moodboard1{
-        width: 115px;
-        height: 130px;
-        justify-content: center;
-    }
-    .moodboard2{
-        width: 235px;
-        height: 130px;
-        justify-content: center;
-    }
-    .moodboard3{
-        width: 115px;
-        height: 130px;
-        justify-content: center;
-    }
-    .moodboard4{
-        width: 115px;
-        height: 130px;
-        justify-content: center;    
-    }
-    .moodboard6{
-        width:115px;
-        height: 130px;
-        justify-content: center;
-    }
-    /*Nosotros*/
-    .acercanos{
-        height: 100%;
-        width: 100%;
-    }
-    .parrafo1{
-        color: white;
-        height: 100%;
-        width: 100%;
-        padding: 45px 30px 25px 0;
-        font-size: 15px;
-        text-align: center;
-    }
-    .imagen5acerca{
-        border-radius: 60px;
-        width: 200px;
-        height: 200px;
-        padding: auto;
-    }
-    /*Servicios*/
-    .servitodo{
-        display: grid;
-        grid-template-columns: 50px;
-        grid-template-rows: repeat(12, 50px);
-        row-gap: 320px;
-        margin: 150px 270px 80px 10px;
-        align-items: center;
-        justify-content: center;
-    }
-    .deporte{
-        font-size: 22px;
-        color: #E6A22E;
-        text-align: center;
-        margin: 0 15px 10px 100px;
-    }
-    main section div a{
-        text-decoration: none;
-        font-size: 15px;
-        color: #E6A22E;
-        text-align: right;
-        font-weight: bold;
-    }
-    /*Ubicacion*/
-    .todosede{
-        display: grid;
-        grid-template-columns: 250px;
-        grid-template-rows: 150px;
-        row-gap: 20px;
-        flex-grow: 1;
-        height: 150;
-        width: 250;
-        margin: 5px 20px 20px 20px;
-        align-items: center;
-        justify-content: center;
-    }
-    .subtitulosede{
-        color:#E6A22E;
-        height: 40px;
-        width: 330px;
-        font-size: 20px;        
-        text-align: center;
-        justify-content: center;
-    }
-    .parrafo2{
-        color: white;
-        height: 150px;
-        width: 330px;
-        font-size: 15px;
-        text-align: center;
-        justify-content: center;
-        margin: 5px 0 5px 0;
-    }    
-    .sedes{
-        height: 150px;
-        width: 330px;
-    }
-    .mapa{
-        width: 100%;
-        height: 100%;
-    }
-    /*Beneficios*/
-    .todobene{
-        display: grid;
-        grid-template-columns: 50px;
-        grid-template-rows: repeat(12, 50px);
-        row-gap: 320px;
-        margin: 150px 170px 80px 30px;
-        align-items: center;
-        justify-content: center;
-    }
-    .beneficio{
-        width: 200px;
-        height: 300px;
-    }
-    /*Perfil*/
-    .formperfil{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .inicio{
-        min-width: 500px;
-        flex: 1;
-        text-align: rigth;
-        margin: 0 10px 50px 160px;
-    }
-    .imagen7perfil{
-        display: flex;
-        flex: 1;
-        height: 200px;
-        width: 220px;
-        border-radius: 50px;
-        margin: 0 35px 50px 10px;
-    }
-    /*Footer*/
-    .footer{
-        flex-wrap: wrap;
-        background-color: black;
-        text-align: center;
-        color: #E6A22E;
-        align-items: flex-end;
-        margin: 0 50px 0px 50px;
-    }
-}
-    
-
-
-
-
-
-
-}
+/*# sourceMappingURL=style.css.map */

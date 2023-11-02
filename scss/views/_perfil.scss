@@ -1,0 +1,85 @@
+.formperfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px 50px 80px;
+    .imagen7perfil{
+        display: flex;
+        flex: 1;
+        height: 500px;
+        width: 300px;
+        border-radius: 50px;
+        margin: 0 20px 50px 500px;
+    }
+    .inicio{
+        min-width: 500px;
+        flex: 1;
+        text-align: rigth;
+        margin: 0 500px 50px 80px;
+        .fotoperfil{
+            width: 150px;
+            height: 150px;
+            justify-content: center;
+            margin: 10px 20px 20px 88px;
+        }
+        .controles{
+            width: 350px;
+            border: 2px solid #E6A22E;
+            margin-bottom: 10px;
+            padding: 5px 5px;
+            background-color: white;
+            text-align: left;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+        }
+        .pregunta{
+            width: 350px;
+            margin-bottom: 1px;
+            padding: 5px 5px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin-left: 80px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .boton{
+            width: 350px;
+            height: 35px;
+            background-color: #E6A22E;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+        }
+        .botoninicio{
+            width: 350px;
+            height: 35px;
+            background-color: #E6A22E;
+            margin-bottom: 2px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+        }
+        .botonfacebook{
+            width: 350px;
+            height: 35px;
+            background-color: $color-secundario;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "base/variables";
+/*General*/
+@import "base/generales";
+/*HEADER*/
+@import "componentes/header";
+/*MAIN*//*Inicio*/
+@import "views/index";
+/*Nosotros*/
+@import "views/nosotros";
+/*Servicios*/
+@import "views/servicios";
+/*Ubicacion*/
+@import "views/ubicacion";
+/*Beneficios*/
+@import "views/beneficios";
+/*Perfil*/
+@import "views/perfil";
+/*Footer*/
+@import "componentes/footer";
+/*Mobile*/
+@import "mobile";

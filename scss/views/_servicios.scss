@@ -1,0 +1,82 @@
+.servitodo{
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+    padding: 20px 50px 100px 50px;
+    justify-content: center;
+    align-items: center;
+        .deporte{
+            font-size: 20px;
+            color: #E6A22E;
+            text-align: center;
+        }
+        .spinning{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .crossfit{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .funcional{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .musculacion{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .tabata{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .hitt{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .muay{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .yoga{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .zumba{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .nutri{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .quiro{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        .fisio{
+            border-radius: 30px;
+            width: 300px;
+            height: 270px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            color: #E6A22E;
+            text-align: rigt;
+            font-weight: bold;
+        }
+}

@@ -1,0 +1,60 @@
+header{
+    background: black;
+    height: 120px;
+    width: 100%;
+    li a.active, &:hover{
+        background-color: #E6A22E;
+        color: black;
+        transition: 0.5s;
+        padding: 7px 7px;
+    }
+    nav{
+        .logo1{
+            position: absolute;
+            padding: 20px 50px;
+        }
+            .logo{
+                float: left;
+                width: 55px;
+                height: 80px;
+                margin: 5px 0px 5px 5px;
+            }
+        .menu, .icono{
+                height: 25px;
+                width: 25px;
+                position: absolute;
+                top: 10px;
+                right: 12px;
+                padding-top: 10px;
+                padding-bottom: 1px;
+                margin: 50px 15px 50px 0px;
+                cursor: pointer;
+                display: none;
+        }                    
+        ul{
+            color:white; 
+            font-size: 18px;
+            padding-top: 10px;
+            padding-bottom: 1px;
+            display: flex;
+            justify-content: space-between;
+            float: right;
+            margin: 25px 80px 0px 0px;
+            flex-grow: 1;
+            align-content: self-start;
+            li{
+                display: inline-block;
+                line-height: 80px;
+                margin: 0 30px;
+                a{
+                    text-decoration: none;
+                    color:white;
+                    text-align: right;
+                    padding: 7px 7px;
+                    border-radius: 3px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
